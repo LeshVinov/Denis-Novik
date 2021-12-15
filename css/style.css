@@ -1,0 +1,259 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gilory-Medium', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.container {
+    position: relative;
+    max-width: 943px;
+    width: 100%;
+    margin: auto;
+    z-index: 54;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.section_promo img {
+    box-shadow: 0 6px 4px -4px #000;
+}
+
+.section_title {
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+/* header */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 32px 0;
+    border-bottom: 1px solid #828282;
+}
+
+.nav_item {
+    font-family: Gilroy-Bold;
+    text-decoration: none;
+    color: #828282;
+}
+
+.nav_item:hover {
+    color: #070707;
+}
+
+/* section_promo */
+
+h1 {
+    font-family: Gilroy-Bold;
+    font-size: 47.3392px;
+    line-height: 59px;
+}
+
+.section_promo-text_container {
+    align-items: flex-end;
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+
+.rotation_text-container {
+    transform: rotate(-90deg);
+    margin-bottom: 22px;
+}
+
+.section_rotation-text:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+.promo_img-conatiner {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* section_about-me */
+
+.section_about-me {
+    background: #F6F6F6;
+    margin-top: 104px;
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+
+.section_desc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 485px;
+}
+
+.section_abautus-text {
+    text-align: center;
+}
+
+.about_us-title {
+    margin-bottom: 18px;
+}
+
+.section_abautus-text {
+    margin-bottom: 45px;
+}
+
+.section_abautus-text:nth-child(3) {
+    max-width: 400px;
+}
+
+.section_abautus-text:nth-child(4) {
+    max-width: 316px;
+}
+.section_abautus-text:last-child {
+    margin-bottom: 0;
+}
+
+/* section_skills */
+
+.section_skills {
+    padding-top: 91px;
+    padding-bottom: 110px;
+}
+
+.section_skills .section_abautus-text {
+    margin-bottom: 84px;
+}
+
+.star {
+    box-shadow: none;
+}
+
+.program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.program_name {
+    max-width: 70px;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    margin-top: 24px;
+    margin-bottom: 41px;
+    text-align: center;
+}
+
+.star {
+    margin-right: 10px;
+}
+
+.star:last-child {
+    margin-right: 0;
+}
+
+/* section_portfolio */
+
+.section_portfolio {
+    padding: 112px 0 96px;
+    background: #F6F6F6;
+}
+
+.portfolia_items {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio_title {
+    margin-bottom: 50px;
+}
+
+.portfolio_link {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+.portfolio_link:last-child {
+    margin-bottom: 0;
+}
+
+/* section_contacts */
+
+.section_contacts {
+    padding: 114px 0 120px
+}
+
+.contact_button {
+    background: #070707;  
+    border-radius:  25px; 
+    color: #fff;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding: 14px 29px;
+}
+
+.contacts_container {
+    flex-direction: column;
+}
+
+.contacts_text {
+    max-width: 275px;
+}
+
+.socilals_container {
+    margin-top: 86px;
+    display: flex;
+    justify-content: center;
+}
+
+.social_link {
+    margin-right: 62px;
+}
+
+.social_link:last-child {
+    margin-right: 0;
+}
+
+.like-me_text {
+    margin-top: 45px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;    
+}
