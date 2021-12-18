@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="section_header ">
+    <header class="section section_header ">
         <nav class="container navigation">
             <a href="#" class="nav_item">Home</a>
             <a href="#" class="nav_item">About me</a>
@@ -20,10 +20,17 @@
     </header>
     <!-- /.section_header -->
     <section class="section section_promo">
+        
+        <!-- /.burger_menu -->
         <div class="section_promo-text_container container block">
-            <h1 class="section_title">Denis <br> Novik</h1>
+            <div class="name-and-burger">
+                <h1 class="section_title">Denis <br> Novik</h1>
+                <div class="menu-btn">
+                    <div class="menu-btn__burger"></div>
+                </div>
+            </div>
             <p class="section_desc desc_promo">UX | UI designer<br>24 years old, Minsk</p>
-            <div class="rotation_text-container">
+            <div class="rotation_text-container rotation_text-container_not-adapt">
                 <button class="language_change_button button">RU</button> |
                 <button class="language_change_button button">ENG</button>
             </div>
@@ -32,6 +39,7 @@
         <!-- /.section_promo-text_container container block -->
         <div class="promo_img-conatiner">
             <img src="./img/DenisNovik.jpg" alt="Нет, блин, Денис Старик" class="promo_img">
+            <img src="./img/DeenisNovik_Adaptive.jpg" alt="Нет, блин, Денис Старик" class="promo_img_adaptive">
         </div>
         <!-- /.promo_img-conatiner -->
     </section>
@@ -136,5 +144,6 @@
         <!-- /.section section_contacts -->
     </section>
     <!-- /.section section_contacts -->
+    <script src="/js/script.js"></script>
 </body>
 </html>
